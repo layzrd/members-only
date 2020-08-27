@@ -20,7 +20,7 @@
         <td><%= post.title %></td>
         <td><%= post.body %></td>
         <% if user_signed_in? %>
-        <td><%= post.user.email %></td>
+        <td><%= post.user.name %></td>
         <% end %>
         <% if user_signed_in? %>
         <td><%= link_to 'Show', post %></td>
